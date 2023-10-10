@@ -85,5 +85,5 @@ services:
     volumes:
       - ./kafka_nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
-      - 9092-9094:9092-9094
+      - 8080:80
 
